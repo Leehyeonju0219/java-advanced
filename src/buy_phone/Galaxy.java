@@ -1,8 +1,8 @@
 package buy_phone;
 
 public class Galaxy extends Phone{
-    public Galaxy(String user) {
-        super(user, "삼송");
+    public Galaxy() {
+        super("삼송");
     }
 
     @Override
