@@ -1,11 +1,9 @@
 package buy_phone;
 
 public abstract class Phone {
-    String user;
     String brand;
 
-    public Phone(String user, String brand) {
-        this.user = user;
+    public Phone(String brand) {
         this.brand = brand;
     }
 
