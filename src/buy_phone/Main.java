@@ -2,11 +2,9 @@ package buy_phone;
 
 public class Main {
     public static void main(String[] args) {
-        iPhone iPhone = new iPhone("잡스");
-        Galaxy galaxy = new Galaxy("재용");
+        Person jobs = new Person("잡스");
 
-        iPhone.buyPhone();
-        iPhone.turnOn();
+        Person jDragon = new Person("재용");
 
         galaxy.buyPhone();
         galaxy.turnOn();
