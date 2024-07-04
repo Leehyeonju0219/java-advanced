@@ -6,7 +6,12 @@ public class Main {
 
         Person jDragon = new Person("재용");
 
-        galaxy.buyPhone();
-        galaxy.turnOn();
+        iPhone iPhone15 = new iPhone();
+        jobs.buyPhone(iPhone15);
+        jobs.turnOn();
+
+        Galaxy galaxy23 = new Galaxy();
+        jDragon.buyPhone(galaxy23);
+        jDragon.turnOn();
     }
 }
